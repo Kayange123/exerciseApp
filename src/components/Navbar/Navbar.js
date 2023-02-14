@@ -6,15 +6,15 @@ import "./styles.css";
 
 const Navbar = () => {
   return (
-    <Stack direction="row">
+    <Stack className="nav-container" direction="row">
       <Link to="/">
         <img src={logo} alt="logo" className="logo-img" />
       </Link>
-      <Stack>
+      <Stack direction="row" gap="40px" className="nav-links">
         <Link to="/" className="nav-link">
           Home
         </Link>
-        <a href="#exercise" className="nav-link">
+        <a href="#exercise" className="nav-link"> 
           Exercises
         </a>
       </Stack>

@@ -1,4 +1,6 @@
-### `Exercise Application`
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82773762-3b8c-43a4-b227-a736e695aa1d/deploy-status)](https://app.netlify.com/sites/rapidapi-exercise-app/deploys)
+
+### Exercise Application
 
 This app was created with the help of public REST APIs from [rapidAPI](https://rapidapi.com/).
 

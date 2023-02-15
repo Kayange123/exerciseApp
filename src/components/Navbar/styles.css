@@ -1,21 +1,32 @@
+
 .logo-img{
     height: 48px;
     width: 48px;
-    margin: 0 20px;
+    margin: 5px 20px;
 }
 .nav-link{
     text-decoration: none;
     color: #3A1212;
-    border-bottom: 3px solid #FF2624;
 }
 .nav-links{
-    align-items: flex-end;
+    align-items: center;
     margin-right: 20px;
-    font-size: 30px;
+    font-size: 25px;
+}
+@media screen and (max-width:900){
+    .nav-links{
+        font-size: 20px;
+    }
 }
 .nav-container{
+    z-index: 999;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    background: rgba(255, 255, 255, 0.35);
+    width: 100%;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }

@@ -1,0 +1,73 @@
+.container{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+}
+.banner-content{
+    z-index: 2;
+    margin: 10%;
+}
+.content{
+    margin-left: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.btn{
+    display: block;
+    width: fit-content;
+    height: 100%;
+    
+}
+.head-text{
+    color: crimson;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+@media screen and (max-width:800px) {
+    .banner-img{
+        object-fit: scale-down;
+    }
+    
+    .container{
+        padding-top: 40%;
+    }
+}
+.exercises{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+}
+.box-center input{
+    height: 30px;
+    border: none;
+}
+.box-center input:focus{
+    height: 30px;
+    outline: none;
+    caret-color: blue;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center; ;
+}
+.btn-search{
+   width: ;
+}

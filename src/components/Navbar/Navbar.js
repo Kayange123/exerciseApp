@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link to="/" className="nav-link">
           Home
         </Link>
-        <a href="#exercise" className="nav-link"> 
+        <a href="#exercises" className="nav-link">
           Exercises
         </a>
       </Stack>
